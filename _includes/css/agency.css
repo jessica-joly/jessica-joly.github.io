@@ -264,9 +264,9 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    /*color: #fff;*/
     background-attachment: scroll;
-    background-image: url(img/header-bg.jpg);
+    background-color: #333;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -283,9 +283,10 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
+    font-size: 15px;
     font-style: italic;
     line-height: 22px;
+    color: #fff;
 }
 
 header .intro-text .intro-heading {
@@ -295,29 +296,39 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    color: #fff;
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 145px;
+        padding-bottom: 50px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
+        font-size: 30px;
         font-style: italic;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        /*margin-bottom: 50px;*/
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+        padding-top:4rem;
+    }
+
+    header .milliprik {
+      margin: 2.5rem auto 0.625rem auto;
+      border-top: 4px solid #{{ site.color.primary }};
+      width: 28rem;
+      display: block;
+      padding-top: 1rem;
     }
 }
 
@@ -327,22 +338,23 @@ section {
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 55px;
     font-size: 40px;
 }
 
 section h3.section-subheading {
     margin-bottom: 75px;
+    padding-top:3rem;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 400;
 }
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 50px 0;
     }
 }
 
@@ -635,8 +647,11 @@ section h3.section-subheading {
 }
 
 .team-member img {
-    margin: 0 auto;
-    border: 7px solid #fff;
+    margin: auto;
+    border: 5px solid #fff;
+    height:300px;
+    width:300px;
+
 }
 
 .team-member h4 {
@@ -649,13 +664,9 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
-aside.clients img {
-    margin: 50px auto;
-}
 
 section#contact {
     background-color: #222;
-    background-image: url(img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -740,6 +751,7 @@ footer ul.quicklinks {
 
 ul.social-buttons {
     margin-bottom: 0;
+    margin-top: 8rem;
 }
 
 ul.social-buttons li a {
