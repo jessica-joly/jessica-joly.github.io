@@ -6,7 +6,9 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: "Roboto Slab","Helvetica Neue",'Lato', Helvetica,Arial,sans-serif, sans-serif;*/
+    /*font-family: 'Lato', Helvetica,Arial,sans-serif;*/
+    font-family: 'Source Sans Pro', sans-serif;
     color: #{{ site.color.secondary-dark }};
 }
 
@@ -210,7 +212,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #F0F0F0 ;
 }
 
 .navbar-default .nav li a:hover,
@@ -264,7 +266,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    /*color: #fff;*/
+    color: #F0F0F0;
     background-attachment: scroll;
     background-color: #333;
     background-position: center center;
@@ -311,16 +313,18 @@ header .intro-text .intro-heading {
         font-size: 30px;
         font-style: italic;
         line-height: 40px;
+        color: #F0F0F0;
     }
 
     header .intro-text .intro-heading {
         /*margin-bottom: 50px;*/
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 70px;
         font-weight: 700;
         line-height: 75px;
         padding-top:4rem;
+        color: #F0F0F0;
     }
 
     header .milliprik {
@@ -344,12 +348,12 @@ section h2.section-heading {
 
 section h3.section-subheading {
     margin-bottom: 75px;
-    padding-top:3rem;
+    /*padding-top:3rem;
+    padding-bottom:3rem;*/
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-size: 20px;
-    font-style: italic;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 @media(min-width:768px) {
@@ -648,7 +652,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin: auto;
-    border: 5px solid #fff;
+    border: 5px solid #F0F0F0;;
     height:300px;
     width:300px;
 
