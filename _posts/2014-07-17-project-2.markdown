@@ -1,15 +1,15 @@
 ---
-title: Escape
-subtitle: Website Design
+title: Hip Hiking
+subtitle: Website Development and Design
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+img: hiphike.png
+thumbnail: hiphikethumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+link: <strong><a href="https://github.com/jessica-joly/Hip-Hiker">Github</a></strong>
+technologies: EMBER.js, JavaScript, CSS, HTML, Firebase, Handlebars 
+collaborators: <strong><a href="https://www.linkedin.com/in/lklamkin">Leah Klamkin</a></strong>
+description: Hip Hiking features some of Washington State's best hikes for the hip explorers. The application allows users to contribute to repertoire of hikes by adding hike reports. Every hike is featured on the index page and users can click on each to get more information including description, distance, level of difficulty, area etc., On this page, users can also leave a review for the hike including a rating. The site will calculate the average rating for each hike.
 
 ---

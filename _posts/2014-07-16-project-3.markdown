@@ -1,15 +1,15 @@
 ---
-title: Golden
-subtitle: Website Design
+title: Transcending Caffeine
+subtitle: Website Development and Design
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: caffeine1.png
+thumbnail: caffeine.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+link: <a href="https://github.com/jessica-joly/Caffeine-Blog-"</a>
+technologies: EMBER.js, JavaScript, CSS, HTML, Firebase, Handlebars
+collaborators: <strong><a href="https://www.linkedin.com/in/andrewhaupt2015</a>Andrew Haupt</strong>
+description: Transcending Coffee is a blog application with posts regarding various caffeine subjects. The posts are pre-populated with data from a coffee lorem ipsum generator. Users can also create/update/delete posts and add comments to each. They also have the ability to update and/or delete individual comments.
 
 ---
