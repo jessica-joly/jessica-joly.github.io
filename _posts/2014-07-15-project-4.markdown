@@ -1,15 +1,16 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: Missed Connections
+subtitle: Website Development and Design
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+img:missedconnections.png
+thumbnail:missedconnectionsthumbnail.png
 alt: image-alt
 project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+link: <a href="https://github.com/jessica-joly/Missed-Connections">Github</a>
+technologies: EMBER.js, JavaScript, CSS, HTML, Firebase, Handlebars
+collaborators: <strong><a href="https://www.linkedin.com/in/jenleebell">Jennifer Bell</a></strong>, <strong><a href="https://www.linkedin.com/in/aokincaid">Austin Kincaid</a></strong>,<strong><a href="https://www.linkedin.com/in/alyssahorrocks">Alyssa Horrocks</a></strong>
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---
