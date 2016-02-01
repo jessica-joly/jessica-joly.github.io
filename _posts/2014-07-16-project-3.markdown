@@ -8,7 +8,7 @@ img: caffeine1.png
 thumbnail: caffeine.png
 alt: image-alt
 link: <a href="https://github.com/jessica-joly/Caffeine-Blog-">Github</a>
-technologies: EMBER.js, JavaScript, CSS, HTML, Firebase, Handlebars
+technologies: EMBER.js, JavaScript, CSS, HTML, Firebase, Handlebars.
 collaborators: <strong><a href="https://www.linkedin.com/in/andrewhaupt2015">Andrew Haupt</a></strong>
 description: Transcending Coffee is a blog application with posts regarding various caffeine subjects. The posts are pre-populated with data from a coffee lorem ipsum generator. Users can also create/update/delete posts and add comments to each. They also have the ability to update and delete individual comments.
 
