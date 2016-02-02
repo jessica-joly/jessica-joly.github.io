@@ -337,7 +337,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 section h2.section-heading {
@@ -347,18 +347,19 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 35px;
+    margin-top: 45px;
     /*padding-top:3rem;
     padding-bottom:3rem;*/
     text-transform: none;
     /*font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 @media(min-width:768px) {
     section {
-        padding: 50px 0;
+        padding-top: 50px 0;
     }
 }
 
@@ -755,7 +756,7 @@ footer ul.quicklinks {
 
 ul.social-buttons {
     margin-bottom: 0;
-    margin-top: 8rem;
+    margin-top: 5rem;
 }
 
 ul.social-buttons li a {
@@ -771,6 +772,7 @@ ul.social-buttons li a {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
+
 }
 
 ul.social-buttons li a:hover,
