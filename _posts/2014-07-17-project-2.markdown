@@ -1,6 +1,6 @@
 ---
 title: Hip Hiking
-subtitle: Website Development and Design
+subtitle: A website for the hip explorer
 layout: default
 modal-id: 2
 date: 2014-07-17

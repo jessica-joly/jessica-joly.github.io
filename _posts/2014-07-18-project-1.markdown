@@ -1,11 +1,12 @@
 ---
 title: Pop Portland!
-subtitle: Website Development and Design
+subtitle: A music festival app
 layout: default
 modal-id: 1
 date: 2014-07-18
 img: popportland.png
 thumbnail: popportlandthumbnail.png
+collaborators: Solo project
 alt: image-alt
 link:  <strong><a href="http://portlandpop.herokuapp.com/">Live Site </a></strong>
 technologies: Ruby on Rails, PostgreSQL, JavaScript, jQuery, CSS, HTML, SoundCloud API, Googlemaps4rails gem.
