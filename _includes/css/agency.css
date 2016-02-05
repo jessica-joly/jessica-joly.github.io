@@ -12,6 +12,7 @@ body {
     color: #{{ site.color.secondary-dark }};
 }
 
+
 .text-muted {
     color: #777;
 }
